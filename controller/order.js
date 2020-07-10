@@ -10,7 +10,6 @@ exports.insert = (data) =>
       .catch(() => reject(requestResponse.serverError))
    } catch (error) {
      console.log(error)
-     
    }
  })
 
